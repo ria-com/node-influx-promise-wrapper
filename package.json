@@ -1,0 +1,46 @@
+{
+  "name": "node-influx-promise-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/wrapper.js",
+  "dependencies": {
+    "influx": "^3.2.0",
+    "q": "^1.1.2",
+    "config": "*"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.14.5"
+  },
+  "scripts": {
+    "test": "node ./spec/wrapper_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ria-com/node-influx-promise-wrapper.git"
+  },
+  "author": "SamhainG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ria-com/node-influx-promise-wrapper/issues"
+  },
+  "homepage": "https://github.com/ria-com/node-influx-promise-wrapper",
+  "jshintConfig": {
+    "nonew":true,
+    "curly":true,
+    "latedef":true,
+    "noarg":true,
+    "esnext":true,
+    "forin":true,
+    "noempty":true,
+    "node":true,
+    "eqeqeq":true,
+    "strict":true,
+    "undef":true,
+    "bitwise":true,
+    "newcap":true,
+    "onevar":true,
+    "camelcase":true,
+    "nonbsp":true,
+    "freeze":true
+  }
+}
