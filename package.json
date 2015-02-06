@@ -1,5 +1,5 @@
 {
-  "name": "node-influx-promise-wrapper",
+  "name": "influx-promise-wrapper",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/wrapper.js",
